@@ -38,3 +38,32 @@ body {
     color: black;
     font-size: 15px;
 }
+.imageBanner {
+    height: 1000px; 
+    background: url("../images/landing.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.textBanner{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+    font-size: 6rem;
+    font-weight: 500;
+}
+header p{
+    font-size: 2rem;
+    font-weight: light;
+}
+
+
