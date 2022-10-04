@@ -6,3 +6,148 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: sans-serif;
+}
+
+.mainHeader{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-right: 10px;
+}
+
+.imageLogo{
+    width: 15%;
+    height: 15%;
+}
+.menu{
+    display:flex;
+    list-style:none;
+}
+
+.menu li{
+    justify-content: flex-end;
+
+}
+.menu  > li > a{
+    text-decoration: none;
+    display: flex;
+    margin-inline-start: 20px;
+    color: black;
+    font-size: 15px;
+}
+.imageBanner {
+    height: 1000px; 
+    background: url("../images/landing.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.textBanner{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+    font-size: 6rem;
+    font-weight: 500;
+}
+header p{
+    font-size: 2rem;
+    font-weight: light;
+}
+.section {
+    margin: 1rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+.elements {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.element {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    align-items: center;
+}
+
+.element img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 24px;
+}
+.element h2 {
+    color: #00B172;
+    font-size: 2.2rem;
+    margin-bottom: 24px;
+  }
+
+  .element p {
+    font-size: 2rem;
+    color: black;
+    font-weight: 200;
+  }
+  .footerGeneral{
+    margin-top: 80px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .footer-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #00B172;
+    position: relative;
+    padding: 130px; 
+  }
+  .footerInfo{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .footerInfo h1{
+    color:white;
+  }
+  .footerInfo h2{
+    color:white;
+  }
+  .footerInfo p{
+    color:white;
+  }
+  .footerElement{
+    padding-top: 32px;
+  }
+  .footerImage{
+    height: 500px;
+  }
+  .footerImage img{
+    object-fit: cover;
+    width: 285px;
+    height: 500px;
+  }
+  .spotifyLogo{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    width: 150px;
+    height: 150px;
+    background-image: url("../images/spotify-icon-white.png");
+    background-size: cover;
+    z-index: 99;
+  }
+
+
